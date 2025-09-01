@@ -24,12 +24,6 @@ Script desenvolvido durante o período de assistente de laboratório no LABELO p
 - Em seguida, outra janela será aberta. Selecione a segunda pasta ("PACOTE ATUALIZADO").
 - Após a seleção, o script realizará a comparação e exibirá o relatório completo diretamente no terminal.
 
-### Funções do Script
-- `selecionar_pasta(titulo)`: Usa a biblioteca `tkinter` para criar uma janela de diálogo gráfica, permitindo que o usuário selecione uma pasta de forma interativa. É uma melhoria de usabilidade em relação a ter que digitar os caminhos no terminal.
-- `comparar_pastas(pasta1, pasta2)`: É a função principal da lógica de comparação. Ela cria o objeto `dircmp`, coleta os resultados (`left_only`, `right_only`, `diff_files`) e, o mais importante, itera sobre `dircmp.subdirs` para chamar a si mesma, aplicando a mesma lógica de comparação para cada subpasta encontrada.
-- `formatar_resultados(resultados, nivel)`: Pega o dicionário de resultados gerado pela função `comparar_pastas` e o transforma em uma string formatada e indentada, pronta para ser exibida ao usuário.
-- `main()`: É a função que orquestra todo o processo: chama a seleção de pastas, inicia a comparação, verifica se houve alguma alteração e, por fim, imprime o relatório final.
-
 ## Exemplo de Saída
 ```bash
 ================================================================================
