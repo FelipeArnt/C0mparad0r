@@ -58,7 +58,7 @@ Ao criar um objeto `dircmp(pasta1, pasta2)`, a classe realiza uma comparação s
 * `main()`: É a função que orquestra todo o processo: chama a seleção de pastas, inicia a comparação, verifica se houve alguma alteração e, por fim, imprime o relatório final.
 
 ## Exemplo de Saída
-
+```bash
 
 ================================================================================
 
@@ -98,3 +98,4 @@ Subdiretório: assets
 Subdiretório: lib
 [MODIFICADOS]:
 - utils.py
+```
