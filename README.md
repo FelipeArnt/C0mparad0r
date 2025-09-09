@@ -1,4 +1,4 @@
-# 🔎 C0mparad0r
+# 🔎 C0mparad0r 📁
 Script desenvolvido durante o período de assistente de laboratório no LABELO para comparação recursiva entre diretórios/pastas, identificando mudanças feitas em ambas.
 
 ## Funcionalidades
@@ -24,36 +24,12 @@ Script desenvolvido durante o período de assistente de laboratório no LABELO p
 - Em seguida, outra janela será aberta. Selecione a segunda pasta ("PACOTE ATUALIZADO").
 - Após a seleção, o script realizará a comparação e exibirá o relatório completo diretamente no terminal.
 
-## Exemplo de Saída
-```bash
-================================================================================
-Comparando pastas:
-================================================================================
-Primeiro pacote: /caminho/para/pacote_v1
-Pacote Atualizado: /caminho/para/pacote_v2
-================================================================================
 
-ALTERAÇÕES ENCONTRADAS:
-================================================================================
-[MODIFICADOS]:
-- config.ini
-- main.py
-================================================================================
-[REMOVIDOS]:
-- arquivo_antigo.txt
-- manual.pdf
-================================================================================
-[ADICIONADOS]:
-- novo_recurso.py
-- documentacao.html
+---
 
-- Subdiretório: assets
-================================================================================
-[ADICIONADOS]:
-- icone_novo.png
-- Subdiretório: lib
-================================================================================
-[MODIFICADOS]:
-- utils.py
-================================================================================
-```
+## 💻 Demonstração
+
+<img width="1062" height="457" alt="image" src="https://github.com/user-attachments/assets/ae4e9ccf-d596-4534-92df-94d037e0b7b5" />
+
+
+---
