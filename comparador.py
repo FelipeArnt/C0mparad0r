@@ -107,6 +107,12 @@ def main():
         if alteracoes else 
         "NENHUMA ALTERAÇÃO ENCONTRADA"
     )
+           # Adicionar ao final de main()
+    salvar = input("Salvar relatório em arquivo? (s/n): ").lower()
+    if salvar == 's':
+           with open("relatorio_comparacao.txt", "w") as f:
+               f.write(relatorio)
+           print("Relatório salvo em 'relatorio_comparacao.txt'")
     # Exibe resultados
     print("\n" + "=" * 80)
     print(relatorio)
