@@ -1,3 +1,6 @@
+#!/usr/bin/env Python3
+# |----|LABELO/VSW|----|@author:Felipe Arnt|----|
+
 import os
 import sys
 from filecmp import dircmp
