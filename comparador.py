@@ -1,5 +1,5 @@
 #!/usr/bin/env Python3
-# |----|LABELO/VSW|----|@author:Felipe Arnt|----|
+# |----|LABELO/VSW|----|@author:FelipeArnt|----|
 
 import os
 import sys
