@@ -1,5 +1,5 @@
 # 🔎 C0mparad0r 📁
-Script desenvolvido durante o período de assistente de laboratório no LABELO para comparação recursiva entre diretórios/pastas, identificando possíveis mudanças realizadas.
+Script desenvolvido para comparação recursiva entre diretórios/pastas, identificando possíveis mudanças realizadas.
 
 ## Funcionalidades
 - **Interface Gráfica**: Utiliza uma janela de diálogo nativa do sistema para a seleção das pastas, tornando o uso mais intuitivo.
